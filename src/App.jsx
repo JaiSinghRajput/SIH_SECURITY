@@ -1,3 +1,5 @@
+//just for testing of components no ue in project 
+
 import BannerSlider from "./components/BannerSlider/BannerSlider";
 import ComplaintForm from "./components/ComplaintForm/ComplaintForm";
 import ContactInfo from "./components/ContactInfo/ContactInfo";
