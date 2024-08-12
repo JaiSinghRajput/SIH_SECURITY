@@ -1,4 +1,5 @@
 import React from 'react';
+import constructionImg from '../../assets/CONSTRUCTION.jpeg'
 
 const UnderConstruction = () => {
   return (
@@ -6,7 +7,7 @@ const UnderConstruction = () => {
       <h1 className="text-3xl font-bold mb-6">UNDER CONSTRUCTION</h1>
       
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZo5Wz6jQpGSCDuDvi4f_AHXD_IiI3OodyxQ&usqp=CAU"
+        src={constructionImg}
         alt="Under Construction"
         className="mb-6"
       />
@@ -27,10 +28,7 @@ const UnderConstruction = () => {
       </div>
       
       <p className="text-center text-sm text-gray-500">
-        Sign up now to get early notification of our launch date!
-      </p>
-      <p className="text-center text-sm text-gray-500 mt-2">
-        Image from <a href="https://www.freepik.com" className="text-blue-500">Freepik</a>
+         get In touch to early notification of our launch date!
       </p>
     </div>
   );
