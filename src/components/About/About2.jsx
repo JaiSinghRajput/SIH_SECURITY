@@ -37,7 +37,7 @@ function About2() {
                 allowFullScreen>
               </video>
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
-                <span className="text-white text-lg font-semibold">Watch our introduction video</span>
+                {/*<span className="text-white text-lg font-semibold">Watch our introduction video</span> */}
               </div>
             </div>
             <div className="p-6">
