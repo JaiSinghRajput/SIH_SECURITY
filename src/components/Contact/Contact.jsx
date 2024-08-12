@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactInfo from './ContactInfo';
 
 function Contact() {
   return (
@@ -78,18 +79,7 @@ function Contact() {
         <div className="bg-white shadow-md rounded-lg p-6 mt-8">
           <h3 className="text-2xl font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-700 hover:text-gray-900">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
-              <i className="fab fa-instagram"></i>
-            </a>
+          <ContactInfo/>
           </div>
         </div>
       </div>
