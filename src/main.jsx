@@ -10,14 +10,15 @@ import ComplaintForm from './components/ComplaintForm/ComplaintForm.jsx'
 import PrivacyPolicy  from './components/Agreement/Privacy.jsx'
 import TermsAndConditions  from './components/Agreement/Terms.jsx'
 import ScamReports from './components/ScamReports/ScamReports.jsx'
-
-
+import UnderConstruction from './components/ComplaintForm/UnderConstruction' 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='About-us' element={<About2 />} />
       <Route path='Contact' element={<Contact/>} />
+      <Route path='resources' element={<UnderConstruction/>} />
+      <Route path='users' element={<UnderConstruction/>} />
       <Route path='report-complaint' element={<ComplaintForm/>} />
       <Route path='scam-reports' element={<ScamReports/>} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
