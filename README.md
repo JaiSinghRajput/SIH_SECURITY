@@ -27,8 +27,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sih-security.git
-    cd sih-security
+    git clone https://github.com/jaisinghrajput/sih_security.git
+    cd sih_security
     ```
 
 2. Install dependencies:
@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 3. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
