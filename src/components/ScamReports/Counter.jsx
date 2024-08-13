@@ -1,8 +1,11 @@
 import React from 'react';
 import { FaCheckCircle, FaHourglassHalf, FaExclamationCircle } from 'react-icons/fa';
+import ScamMap from './ScamMap.jsx';
+
 
 function Counter({ total = "10M", pending = "3M", resolved = "7M" }) {
   return (
+    <>
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-4xl font-extrabold text-gray-900 mb-12">
@@ -30,6 +33,10 @@ function Counter({ total = "10M", pending = "3M", resolved = "7M" }) {
         </dl>
       </div>
     </div>
+      
+        < ScamMap/>
+
+        </>
   );
 }
 

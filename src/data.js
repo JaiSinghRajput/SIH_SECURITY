@@ -243,3 +243,38 @@ export const storiesData = [
     approved: true,
   },
 ]
+
+// src/data/scamData.js
+export const scamData = [
+  { id: 1, lat: 28.6139, lng: 77.209, category: "red", scamType: "Credit Card Fraud" },
+  { id: 2, lat: 19.076, lng: 72.8777, category: "yellow", scamType: "Phishing" },
+  { id: 3, lat: 13.0827, lng: 80.2707, category: "blue", scamType: "Online Shopping Scam" },
+  { id: 4, lat: 22.5726, lng: 88.3639, category: "green", scamType: "Identity Theft" },
+  { id: 5, lat: 12.9716, lng: 77.5946, category: "red", scamType: "Fake Job Offers" },
+  { id: 6, lat: 18.5204, lng: 73.8567, category: "yellow", scamType: "Lottery Scam" },
+  { id: 7, lat: 23.0225, lng: 72.5714, category: "blue", scamType: "Online Auction Scam" },
+  { id: 8, lat: 26.9124, lng: 75.7873, category: "green", scamType: "Investment Scam" },
+  { id: 9, lat: 17.385, lng: 78.4867, category: "red", scamType: "Tech Support Scam" },
+  { id: 10, lat: 15.2993, lng: 74.124, category: "yellow", scamType: "Loan Scam" },
+  { id: 11, lat: 25.3176, lng: 82.9739, category: "blue", scamType: "Charity Scam" },
+  { id: 12, lat: 9.9312, lng: 76.2673, category: "green", scamType: "Inheritance Scam" },
+  { id: 13, lat: 27.1767, lng: 78.0081, category: "red", scamType: "Online Dating Scam" },
+  { id: 14, lat: 31.1048, lng: 77.1734, category: "yellow", scamType: "Fake Antivirus" },
+  { id: 15, lat: 30.7333, lng: 76.7794, category: "blue", scamType: "Fake Products" },
+  { id: 16, lat: 34.0837, lng: 74.7973, category: "green", scamType: "Rental Scam" },
+  { id: 17, lat: 23.2599, lng: 77.4126, category: "red", scamType: "Travel Scam" },
+  { id: 18, lat: 25.5941, lng: 85.1376, category: "yellow", scamType: "Work-from-home Scam" },
+  { id: 19, lat: 24.5854, lng: 73.7125, category: "blue", scamType: "Insurance Scam" },
+  { id: 20, lat: 26.8467, lng: 80.9462, category: "green", scamType: "Government Grant Scam" },
+  { id: 21, lat: 28.4089, lng: 77.3178, category: "red", scamType: "Online Classified Scam" },
+  { id: 22, lat: 11.0168, lng: 76.9558, category: "yellow", scamType: "Debt Collection Scam" },
+  { id: 23, lat: 16.705, lng: 74.2433, category: "blue", scamType: "Pyramid Scheme" },
+  { id: 24, lat: 15.8528, lng: 74.4987, category: "green", scamType: "Ponzi Scheme" },
+  { id: 25, lat: 22.7196, lng: 75.8577, category: "red", scamType: "Mail Fraud" },
+  { id: 26, lat: 27.2046, lng: 77.4977, category: "yellow", scamType: "Check Fraud" },
+  { id: 27, lat: 20.5937, lng: 78.9629, category: "blue", scamType: "Romance Scam" },
+  { id: 28, lat: 21.1458, lng: 79.0882, category: "green", scamType: "Employment Scam" },
+  { id: 29, lat: 24.1397, lng: 88.2692, category: "red", scamType: "Social Media Scam" },
+  { id: 30, lat: 12.2958, lng: 76.6394, category: "yellow", scamType: "Shopping Fraud" },
+];
+
