@@ -70,7 +70,7 @@ function Contact() {
             <iframe
               className="w-full h-64 rounded-lg"
               title="Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093743!2d144.95373631568037!3d-37.81720997975133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43a5f679b7%3A0x8db3b6f83987fcbf!2sEnvato!5e0!3m2!1sen!2sin!4v1574640137116!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.7900283352285!2d76.60834071526523!3d27.361736183517923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3961a57c16c9b5cf%3A0x80b8b27a1f7e8d4!2sMITRC%2C%20Alwar!5e0!3m2!1sen!2sin!4v1691981534076!5m2!1sen!2sin"
               allowFullScreen=""
             ></iframe>
           </div>
